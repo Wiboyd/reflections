@@ -1,0 +1,60 @@
+?? How did viewing a diff between two versions of a file help you see the bug that was introduced?
+===========
+Being able to see the differences between two versions of a file can definitely
+help in debugging by allowing you to sea which lines are different, so that 
+you can easily spot where yoour changes were wrong. In small files it might not
+be that useful, but when coming to large files, not having to review the entire
+file is a great time saving. Comparing a version that worked previously with a new one
+that doesn't work is much quicker if we only focus on the parts of the file that we
+actualy made changes on.
+
+
+?? How could having easy access to the entire history of a file 
+make you a more efficient programmer in the long term?
+===========
+When working with beta software, easily identifying and isolating bugs can help fixing them
+by simply making the right changes to the new file. It also helps solving backwards
+compatibility issues and all that is backwards oriented. Also, we can isolate pieces
+of code that are corresponding to new features in order to make sure they are fully
+compatibles with ancient versions. This can ultimately help better organize our code
+
+
+?? What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+===========
+Well pros are that it enables really consistent commits, not too much or too less,
+ and commits message give clear idea about what happenend for that commit. This helps
+ keeping different versions efficiently organized and not looking for the right version
+ for hours.
+ Cons : You might loose some work due to technical issues that you didn't save, or forgot
+ to commit at the right time, but this is a small time loss compared to looking for
+  a file for too long.
+
+
+?? Why do you think some version control systems, like Git, allow saving multiple
+ files in one commit, while others, like Google Docs, treat each file separately?
+============
+Git is useful for coders because implementing a new feature can mean changes to multiple files that are specifically related to that feature. So if we want to fix bugs for that feature, seeing all the changes in all files for that special feature is super usefull. This is less true for Google Docs where files aren't that much related to each other. They don't impact on each other.
+
+
+?? How can you use the commands git log and git diff to view the history of files?
+============
+using git log, we can see all the changes mades grouped in logical commits. Thanks to
+commit messages, we can identify quickly the changes from each commit. Plus, using
+-stat flag, we can check the amount that has changes and which files changed.
+Next, when we located the changes we want to inspect, we can simply use diff with the commit
+id and the one of the previous commit to see the changes themselves.
+
+
+?? How might using version control make you more confident to make changes that 
+could break something?
+===========
+Using git can help because if we do break something, we know we can revert to a stable version
+So doing important changes is easy because we can compare with stable versions.
+
+
+?? Now that you have your workspace set up, what do you want to try using Git for?
+===========
+Well, I'll try using it for my website project to keep track of changes and improve it
+without fear of breaking everything ! Plus I didn't know about the sublime thing from
+the terminal and THAT is cool ! :)
