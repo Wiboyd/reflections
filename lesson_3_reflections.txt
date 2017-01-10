@@ -2,3 +2,12 @@
 ============
 The remote repo helps collaborating with other developers and keep track of changes
 you issue from different computers.
+
+?? Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+===========
+When working on your local machine, you don't want content to get pulled and that changes
+what you are working on without asking. This would be a complete mess. Similarily, you
+don't want to push unfinished work on remote as other people would not be able to understand
+what you did. So keeping control on push and pull is definitely the right way to do.
+
