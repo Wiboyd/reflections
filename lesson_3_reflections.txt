@@ -28,3 +28,12 @@ get a copy in which you can work on your own.
 Then we can work on something that doesn't change and that we know is stable. We don't
 want the base of the project we work on to change while we're actually working on it.
 Then whenever it's ready we can send it online.
+
+
+?? How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+===========
+I'm at the moment collaborating using Google Drive or Dropbox. These can help when
+dealing with non-text files, but GitHub is definitely a better option for coding
+thanks to its version control system that helps to keep track of changes, keep
+stable versions on main branches, and collaborate efficiently around a project.
