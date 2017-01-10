@@ -1,0 +1,13 @@
+?? What happens when you initialize a repository? Why do you need to do it?
+===========
+Initializing a repo creates a .git directory to store informations and metadata
+that git uses to recall different versions. So we have to do it to tell git to prepare
+itself to receive commits for that directory.
+
+
+?? How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+===========
+The staging area collects files that git should look at. It is a part of the working
+directory in a way. It allows to add files to git without adding the whole directory,
+and therefor have more control over what git is watching for you.
