@@ -27,3 +27,8 @@ When testing ideas about new features that are not "official" and only in experi
 state. Then we can side by side develop that idea and the "production" branch and merge
 them when the new feature is well tested and ready to be included. Branches help keep
 everything clean and organized, and most of all, safe.
+
+
+?? How do the diagrams help you visualize the branch structure?
+===========
+It helped visuallising reachability in a clear way. Plus, it helps seeing what changes happened on a branch while another was developped further.
