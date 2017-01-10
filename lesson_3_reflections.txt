@@ -37,3 +37,13 @@ I'm at the moment collaborating using Google Drive or Dropbox. These can help wh
 dealing with non-text files, but GitHub is definitely a better option for coding
 thanks to its version control system that helps to keep track of changes, keep
 stable versions on main branches, and collaborate efficiently around a project.
+
+
+?? When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+===========
+Making a separate branch allows to develop special features by making sure a stable version
+is still accessible easily. You can take time to work on that feature and test it well
+and at the same time fix critical bugs on master branch, this is super useful.
+Working on master can have the advantage of being a bit simpler, but appart of that,
+I can find any advantage ...
