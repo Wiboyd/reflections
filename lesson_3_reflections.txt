@@ -3,6 +3,7 @@
 The remote repo helps collaborating with other developers and keep track of changes
 you issue from different computers.
 
+
 ?? Why might you want to always pull changes manually rather than having Git 
 automatically stay up-to-date with your remote repository?
 ===========
@@ -11,3 +12,12 @@ what you are working on without asking. This would be a complete mess. Similaril
 don't want to push unfinished work on remote as other people would not be able to understand
 what you did. So keeping control on push and pull is definitely the right way to do.
 
+
+?? Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+===========
+Branches are happening inside a repo. It helps designing new feature while keeping 
+track of stable versions and that sort of stuff. You clone a repo to get a copied
+version of a repo that ise either local or remote. Forking is usefull when you want
+to work on someone else's repo but you don't have the right to do so. By forking, you
+get a copy in which you can work on your own.
