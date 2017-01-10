@@ -18,3 +18,12 @@ and therefor have more control over what git is watching for you.
 Before ever committing changes, we should run git diff --staged in order to see
 exactly what we changed compared to the last commit. Then we can be sure we intend
 every of those changes and write a consistent commit message.
+
+
+?? What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+===========
+When testing ideas about new features that are not "official" and only in experimental
+state. Then we can side by side develop that idea and the "production" branch and merge
+them when the new feature is well tested and ready to be included. Branches help keep
+everything clean and organized, and most of all, safe.
