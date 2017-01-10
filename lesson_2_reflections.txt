@@ -32,3 +32,9 @@ everything clean and organized, and most of all, safe.
 ?? How do the diagrams help you visualize the branch structure?
 ===========
 It helped visuallising reachability in a clear way. Plus, it helps seeing what changes happened on a branch while another was developped further.
+
+
+?? What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+===========
+Merging 2 branches combines all the changes made in the 2 branches in 1 new commit. It's in the diagram because one of the branches stops here and the other continues its path, so it definitely has to be represented.
